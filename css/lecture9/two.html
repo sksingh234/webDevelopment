@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .container{
+            border: 2px solid green;
+            margin: 2px;
+            padding: 2px;
+            background-color: goldenrod;
+            display: flex;
+            flex-direction: row;
+        }
+        #boxleft{
+            border: 2px solid black;
+            margin: 3px;
+            padding: 2px;
+            background-color: aqua;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        #boxright{
+            border: 2px solid red;
+            margin: 3px;
+            padding: 2px;
+            background-color: brown;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        p{
+            border: 1px solid indianred;
+        }
+        @media (min-width:640px)
+         {
+            .container{
+                flex-direction: row;
+            }
+         }
+         @media (max-width:640px)
+         {
+            .container{
+                flex-direction: column;
+            }
+         }
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div id="boxleft">
+           <p>text1</p>
+           <p>text2</p> 
+        </div>
+        <div id="boxright">
+           <img src="linkdin profile pic.jpg" alt="image">
+        </div>
+      </div>
+</body>
+</html>
