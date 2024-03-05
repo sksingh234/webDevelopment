@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 6em;
+    width: 6em;
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0;  
+}

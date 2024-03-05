@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+#div1{
+    background-color: tomato;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+#div2{
+    background-color: maroon;
+    border: 2px solid blue; 
+    height: 100px;
+    width: 100px;
+}
