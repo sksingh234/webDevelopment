@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 20px solid aqua;
+    border-top: 20px solid tomato;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    animation: spinanimate 1s linear 0s infinite normal;
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
