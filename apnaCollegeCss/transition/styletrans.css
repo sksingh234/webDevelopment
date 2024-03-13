@@ -1,0 +1,19 @@
+div {
+    background-color: aqua;
+    border: 2px solid rgba(6, 69, 163, 0.344);
+    width: 400px;
+    height: 400px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+    transition-delay: 2s; */
+    transition: all 2s steps(3) 0.3s;
+}
+
+div:hover{
+    background-color: blue;
+}
+div:active{
+    background-color: rgb(255, 0, 47);
+}
+
