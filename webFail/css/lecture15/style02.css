@@ -60,3 +60,10 @@ img{
     height: 70px;
     border-radius: 50%;
 }
+
+#button{
+    height: 60px;
+    width: 300px;
+    background-color: rgba(111, 229, 229, 0.905);
+    border-radius: 20px;
+}
