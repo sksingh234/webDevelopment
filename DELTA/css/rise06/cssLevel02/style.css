@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#maintopic{
+    color: blue;
+}
+
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    color: azure;
+    background-color: purple;
+}
+
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+.para:nth-of-type(2n+1){
+    background-color: yellow;
+}
+
+#maintopic::first-letter{
+    color: red;
+}
+
+div input[type]:checked+ label {
+    color: rgb(0, 100, 32);
+}
