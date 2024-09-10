@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+    }
+    #one{
+        background-color: red;
+    }
+
+    #two{
+        background-color: pink;
+        position: relative;
+        bottom: 50px;
+        z-index: -1;
+    }
+</style>
+<body>
+    <h2>Z-Index</h2>
+    <DIV id="one">1</DIV>
+    <DIV id="two">2</DIV>
+    <DIV>3</DIV>
+</body>
+</html>
+
+// if we have to change the z-index of our elements then that element must not have position static and default.
