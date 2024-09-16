@@ -94,28 +94,34 @@ body{
     opacity: 1;
 }
 
+.box1{
+    background-color: #232323;
+    height: 160px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.02rem 2.5rem 0 2.5rem;
+}
+
+.p1{
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 
+.p2{
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+}
 
 
 .main-content{
@@ -123,7 +129,98 @@ body{
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    padding-left: 1rem;
 }
+
+.stickynav{
+    position: sticky;
+    top: 0;
+    background-color: #232323;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50px; */
+    padding: 0.25rem 2.5rem;
+    margin-top: 0.5rem;
+    z-index: 10;
+}
+
+.images{
+    margin-right: 0.75rem;
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.images img{
+    margin-right: 0.75rem;
+}
+
+.buttonicons{
+    margin-right: 0.15rem;
+}
+
+.darkbadge{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbadges{
+    margin-right: 1rem;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.cardscontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-color: #232323;
+    border-radius: 0.5rem;
+    width: 150px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.cards img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.cardtitle{
+    font-weight: 600;
+}
+
+.cardinfo{
+    font-size: 0.85rem;
+    opacity: 0.70;
+}
+
+.footer{
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 90%;
+    height: 40%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+
+
 
 .musicplayer{
     background-color: black;
