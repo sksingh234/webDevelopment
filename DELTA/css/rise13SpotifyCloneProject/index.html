@@ -126,7 +126,41 @@
             </div>
         </div>
 
-        <div class="musicplayer">  </div>
+        <div class="musicplayer">  
+            <div class="album">
+                <img src="./assests/card1img.jpeg" alt="" class="albumimage">
+                <div class="albumpara">
+                    <p class="albumpara1">Daylight</p>
+                    <p class="albumpara2">David Kushner</p>
+                </div>
+                <i class="fa-regular fa-heart albumicon" style="margin-right:1.5rem;"></i>
+                <i class="fa-solid fa-tv albumicon"></i>
+            </div>
+
+            <div class="player">
+                <div class="playercontrol">
+                    <img src="./assests/player_icon1.png" class="playercontrolicon">
+                    <img src="./assests/player_icon2.png" class="playercontrolicon">
+                    <img src="./assests/player_icon3.png" class="playercontrolicon" style="height: 2rem; width: 2rem; opacity: 1;">
+                    <img src="./assests/player_icon4.png" class="playercontrolicon">
+                    <img src="./assests/player_icon5.png" class="playercontrolicon">
+                </div>
+                <div class="playbackbar">
+                    <span class="currtime">00:00</span>
+                    <input type="range" min="0" max="100" class="progressbar" value="0">
+                    <span class="totaltime">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="controlsbutton"><i class="fa-regular fa-circle-play controlsicon"></i></button>
+                <button class="controlsbutton"><i class="fa-solid fa-microphone controlsicon"></i></button>
+                <button class="controlsbutton"><i class="fa-solid fa-bars controlsicon"></i></button>
+                <button class="controlsbutton"><i class="fa-solid fa-door-closed controlsicon"></i></button>
+                <button class="controlsbutton"><i class="fa-solid fa-volume-high controlsicon"></i></button>
+                <input type="range" min="0" max="100" value="0" step="10" class="progressbar" style="width: 10rem;">
+            </div>
+        </div>
     </div>
 </body>
 </html>

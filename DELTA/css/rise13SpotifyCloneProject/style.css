@@ -219,13 +219,125 @@ body{
     opacity: 0.4;
 }
 
-
-
-
 .musicplayer{
     background-color: black;
     position: fixed;
     bottom: 0px;
     height: 72px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album img{
+    height: 3rem;
+    width: 3rem;
+    margin-right:1.5rem;
+}
+
+.albumpara{
+    margin-right:1.5rem;
+}
+
+.albumpara1{
+    margin: 0;
+    padding: 0;
+}
+
+.albumpara2{
+    margin: 0;
+    padding: 0;
+    opacity: 0.75;
+    font-size: 0.8rem;
+}
+
+.albumicon{
+    font-size: 0.75rem;
+    opacity: 0.5;
+    margin-right:1.5rem;
+}
+
+.albumicon:hover{
+    opacity: 1;
+}
+
+.player{
+    width: 50%;
+}
+
+.playercontrol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playercontrolicon{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1.5rem;
+    opacity: 0.75;
+}
+
+.playercontrolicon:hover{
+    opacity: 1;
+}
+
+.playbackbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* quirksmode */
+
+.progressbar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 1rem;
+    height: 0.15rem;
+}
+
+.progressbar::-webkit-slider-thumb{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.controls{
+    width: 25%;
+}
+
+.controlsbutton{
+    background-color: transparent;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+.controlsicon{
+    color: white;
+    opacity: 0.75;
+    height: 1rem;
+}
+
+.controlsicon:hover{
+    opacity: 1;
+}
+
