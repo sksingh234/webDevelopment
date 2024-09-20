@@ -1,0 +1,2 @@
+et msg = "   help!";
+consol
