@@ -1,2 +1,0 @@
-et msg = "   help!";
-consol
