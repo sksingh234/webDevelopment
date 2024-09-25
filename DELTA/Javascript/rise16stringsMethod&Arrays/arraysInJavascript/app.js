@@ -33,14 +33,25 @@
 
 // concat and reverse method
 
-let primary = ["red", "blue"];
-let secondary = ["white", "green"];
+// let primary = ["red", "blue"];
+// let secondary = ["white", "green"];
 
-let allColors = primary.concat(secondary);
-console.log(allColors);
+// let allColors = primary.concat(secondary);
+// console.log(allColors);
 
-console.log(allColors.reverse());
+// console.log(allColors.reverse());
 
-console.log(allColors);
-console.log(primary);
-console.log(secondary);
+// console.log(allColors);
+// console.log(primary);
+// console.log(secondary);
+
+// slice and splice method in javascript
+
+// let primary = ["red", "blue"];
+// let secondary = ["white", "green"];
+
+// let allColors = primary.concat(secondary);
+
+// console.log(allColors.slice(1,2));
+// console.log(allColors.splice(1,2,"ram","aam"));
+// console.log(allColors);
