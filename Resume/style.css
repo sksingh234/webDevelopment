@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.resume {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left-column {
+    background-color: #2c3e50;
+    color: white;
+    width: 30%;
+    padding: 20px;
+}
+.right-column {
+    background-color: #ecf0f1;
+    width: 70%;
+    padding: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+    color: #08a7e6;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.section-content {
+    padding-left: 20px;
+}
+.skills, .languages, .social-links {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .languages li, .social-links li {
+    margin-bottom: 10px;
+}
+.skills .skill-bar, .languages .language-bar {
+    background: #34495e;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.skills .skill-bar span, .languages .language-bar span {
+    display: block;
+    height: 100%;
+    background: #1abc9c;
+}
